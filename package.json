@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "babel-node app.js --exec"
   },
   "dependencies": {
     "axios": "^0.21.4",
@@ -14,7 +15,11 @@
     "vue": "^2.6.11",
     "vue-axios": "^3.3.7",
     "vue-router": "^3.5.2",
-    "vue-sweetalert2": "^5.0.2"
+    "vue-sweetalert2": "^5.0.2",
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
